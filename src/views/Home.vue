@@ -74,7 +74,7 @@ export default {
   .home-main-title
     font-size: 18px
     font-weight: bold
-    color: $color-acento-contenido
+    color: #86B60C
   .home-content
     background-color: white
   .info-section
@@ -149,12 +149,12 @@ export default {
 .iniciar-btn-container
   .iniciar-btn-text
     transition: all 0.25s ease-in-out
-    background-color: $color-acento-botones !important
-    color: #0B0A0A !important
+    background-color: #86B60C !important
+    color: #FFF !important
   .icon
     transition: all 0.25s ease-in-out
     // background-color: #083E61 !important
-    background-color: darken($color-acento-botones, 30% ) !important
+    background-color: #496406 !important
   &:hover
     .icon
       transform: scale(1.06)

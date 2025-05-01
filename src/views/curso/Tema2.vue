@@ -583,7 +583,7 @@ export default {
   data() {
     return {
       cuestionario: {
-        tema: 'Herramientas colaborativas para la construcción de paz',
+        tema: 'Elaboración de un plan estratégico integral',
         titulo: 'Ponte a prueba',
         introduccion:
           'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
@@ -592,28 +592,30 @@ export default {
           {
             id: 1,
             texto:
-              '¿Cuál de las siguientes es una característica fundamental de los derechos humanos?',
+              '¿Cuál es uno de los primeros pasos estratégicos al usar herramientas de inteligencia artificial para analizar el entorno empresarial?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Son temporales y cambiantes',
+                texto: 'Realizar campañas de marketing automatizado',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Son universales y aplican a todas las personas',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Son exclusivos de ciertos grupos',
+                texto: 'Implementar un CRM para atención al cliente',
                 esCorrecta: false,
               },
               {
+                id: 'c',
+                texto:
+                  'Recolectar y clasificar datos relevantes del entorno con IA',
+                esCorrecta: true,
+              },
+              {
                 id: 'd',
-                texto: 'Son opcionales',
+                texto:
+                  'Automatizar procesos internos con algoritmos predictivos',
                 esCorrecta: false,
               },
             ],
@@ -622,30 +624,29 @@ export default {
           },
           {
             id: 2,
-            texto:
-              '¿Cuál de las siguientes afirmaciones sobre la diversidad cultural es correcta?',
+            texto: '¿Qué aspecto analiza el componente "S" del modelo PESTEL?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Fomenta la homogeneización cultural',
+                texto: 'Situación tecnológica',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Promueve el respeto y la aceptación de las diferencias',
-                esCorrecta: true,
+                texto: 'Sostenibilidad ambiental',
+                esCorrecta: false,
               },
               {
                 id: 'c',
-                texto: 'Debilita la identidad cultural de los pueblos',
+                texto: 'Seguridad jurídica',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Limita las oportunidades de interacción',
-                esCorrecta: false,
+                texto: 'Factores socioculturales',
+                esCorrecta: true,
               },
             ],
             mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -654,28 +655,28 @@ export default {
           {
             id: 3,
             texto:
-              'La mediación en un conflicto tiene como objetivo principal:',
+              'En el análisis FODA, las oportunidades y amenazas pertenecen al entorno:',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Imponer una solución rápida',
+                texto: 'Interno de la empresa',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Facilitar el diálogo entre las partes',
+                texto: 'Externo de la empresa',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'Determinar la culpabilidad',
+                texto: 'Financiero',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Ignorar las preocupaciones de una parte',
+                texto: 'Legal',
                 esCorrecta: false,
               },
             ],
@@ -684,28 +685,30 @@ export default {
           },
           {
             id: 4,
-            texto: 'En un foro comunitario, es importante:',
+            texto:
+              '¿Cuál es el objetivo principal del Business Model Canvas (BMC) en la etapa de diseño de un negocio?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Escuchar solo a las autoridades',
+                texto: 'Elaborar estados financieros detallados',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Fomentar la participación de todos los miembros',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Decidir por votación sin consultar a los demás',
+                texto: 'Crear una presentación visual para inversionistas',
                 esCorrecta: false,
               },
               {
+                id: 'c',
+                texto:
+                  'Visualizar los elementos clave del modelo de negocio en una sola hoja',
+                esCorrecta: true,
+              },
+              {
                 id: 'd',
-                texto: 'Excluir las opiniones de los más jóvenes',
+                texto: 'Analizar exclusivamente los costos del proyecto',
                 esCorrecta: false,
               },
             ],
@@ -715,28 +718,28 @@ export default {
           {
             id: 5,
             texto:
-              '¿Qué busca la justicia restaurativa en el contexto de un conflicto?',
+              '¿Cuál de las siguientes opciones representa un componente esencial dentro de un Plan Estratégico Integral?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Aplicar una sanción severa',
+                texto: 'Cronograma de redes sociales',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Reparar el daño y restablecer las relaciones',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Castigar a las partes involucradas',
+                texto: 'Análisis de competencia con IA',
                 esCorrecta: false,
               },
               {
+                id: 'c',
+                texto: 'Definición de misión, visión y objetivos estratégicos',
+                esCorrecta: true,
+              },
+              {
                 id: 'd',
-                texto: 'Ignorar el contexto del conflicto',
+                texto: 'Diseño de logos y manual de marca',
                 esCorrecta: false,
               },
             ],

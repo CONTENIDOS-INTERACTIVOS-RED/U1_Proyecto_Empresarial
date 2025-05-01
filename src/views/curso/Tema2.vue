@@ -17,7 +17,7 @@
       p.mb-4 Las ventajas de esta metodología para el aprendizaje son: 
 
       TabsC.color-acento-contenido.mb-5
-        .tabs-content.border.px-4.p-md-5.py-3(titulo="Estructuración lógica del aprendizaje1" :icon="require('@/assets/bullets/icon-tab-c-1.svg')" )
+        .tabs-content.border.px-4.p-md-5.py-3(titulo="Estructuración lógica del aprendizaje" :icon="require('@/assets/bullets/icon-tab-c-1.svg')" )
           .row
             .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
               h4 Estructuración lógica del aprendizaje
@@ -79,7 +79,7 @@
               ul.lista-ul--color.color-dark.mb-4
                 li.mb-0
                   i.fas.fa-arrow-circle-right
-                  | Ejemplo práctico: Una plataforma de aprendizaje en línea que ofrece cursos accesibles en habilidades digitales demandadas por empresas.
+                  | #[strong Ejemplo práctico: ] Una plataforma de aprendizaje en línea que ofrece cursos accesibles en habilidades digitales demandadas por empresas.
 
               
             div(numero="2" titulo="Segmentos de clientes")
@@ -87,28 +87,28 @@
               ul.lista-ul--color.color-dark.mb-4
                 li.mb-0
                   i.fas.fa-arrow-circle-right
-                  | Ejemplo práctico: Estudiantes universitarios que buscan mejorar sus habilidades digitales para el empleo.
+                  | #[strong Ejemplo práctico: ] Estudiantes universitarios que buscan mejorar sus habilidades digitales para el empleo.
 
             div(numero="3" titulo="Canales")
               p Medios a través de los cuales los clientes reciben el producto o servicio. 
               ul.lista-ul--color.color-dark.mb-4
                 li.mb-0
                   i.fas.fa-arrow-circle-right
-                  | Ejemplo práctico: Venta a través de una plataforma de e-learning y promoción en redes sociales.
+                  | #[strong Ejemplo práctico: ] Venta a través de una plataforma de e-learning y promoción en redes sociales.
             
             div(numero="4" titulo="Relaciones con los clientes")
               p Estrategias para atraer, retener y fidelizar clientes. 
               ul.lista-ul--color.color-dark.mb-4
                 li.mb-0
                   i.fas.fa-arrow-circle-right
-                  | Ejemplo práctico: Chatbots para resolver dudas en tiempo real y boletines personalizados.
+                  | #[strong Ejemplo práctico: ] Chatbots para resolver dudas en tiempo real y boletines personalizados.
 
             div(numero="5" titulo="Flujos de ingresos")
               p Fuentes de ingresos, como ventas, suscripciones o publicidad. 
               ul.lista-ul--color.color-dark.mb-4
                 li.mb-0
                   i.fas.fa-arrow-circle-right
-                  | Ejemplo práctico: Modelo de suscripción mensual con acceso a contenido exclusivo.
+                  | #[strong Ejemplo práctico: ] Modelo de suscripción mensual con acceso a contenido exclusivo.
         .col-lg-4.order-1.order-lg-2
             figure
               img(src="@/assets/curso/tema2/5.png", alt="", data-aos="zoom-in").mb-4.mb-lg-0
@@ -128,12 +128,29 @@
               ul.lista-ul--color.color-dark.mb-4
                 li.mb-0
                   i.fas.fa-arrow-circle-right
-                  | Ejemplo práctico: Plataforma de e-learning, instructores calificados, servidores en la nube.
+                  | #[strong Ejemplo práctico: ] Plataforma de e-learning, instructores calificados, servidores en la nube.
 
               
-            div(numero="7" titulo="Título paso 7") Contenido paso 2
-            div(numero="8" titulo="Título paso 8") Contenido paso 3
-            div(numero="9" titulo="Título paso 9") Contenido paso 3
+            div(numero="7" titulo="Actividades clave")
+              p Acciones específicas para implementar la propuesta de valor. 
+              ul.lista-ul--color.color-dark.mb-4
+                li.mb-0
+                  i.fas.fa-arrow-circle-right
+                  | #[strong Ejemplo práctico: ] Plataforma de e-learning, instructores calificados, servidores en la nube.
+
+            div(numero="8" titulo="Socios clave")
+              p Aliados estratégicos que apoyan el modelo de negocio.
+              ul.lista-ul--color.color-dark.mb-4
+                li.mb-0
+                  i.fas.fa-arrow-circle-right
+                  | #[strong Ejemplo práctico: ] Universidades y empresas de tecnología que aportan contenido y certificaciones.
+
+            div(numero="9" titulo="Estructura de costos")
+              p Costos fijos y variables asociados a la operación y crecimiento.
+              ul.lista-ul--color.color-dark.mb-4
+                li.mb-0
+                  i.fas.fa-arrow-circle-right
+                  | #[strong Ejemplo práctico: ] Costos de desarrollo de contenido, mantenimiento de la plataforma y publicidad.
 
 
       .bg-color-6.p-4
@@ -146,31 +163,31 @@
               ul.lista-ul--color.color-dark
                 li.mb-0
                   i.fas.fa-arrow-circle-right
-                  | Propuesta de valor: cursos de alta calidad accesibles desde cualquier lugar.
+                  | #[strong Propuesta de valor:] cursos de alta calidad accesibles desde cualquier lugar.
                 li.mb-0
                   i.fas.fa-arrow-circle-right
-                  | Segmentos de clientes: estudiantes universitarios, profesionales en formación continua.
+                  | #[strong Segmentos de clientes:] estudiantes universitarios, profesionales en formación continua.
                 li.mb-0
                   i.fas.fa-arrow-circle-right
-                  | Canales: plataforma web, aplicación móvil, redes sociales.
+                  | #[strong Canales:] plataforma web, aplicación móvil, redes sociales.
                 li.mb-0
                   i.fas.fa-arrow-circle-right
-                  | Relaciones con los clientes: tutorías personalizadas, soporte 24/7.
+                  | #[strong Relaciones con los clientes:] tutorías personalizadas, soporte 24/7.
                 li.mb-0
                   i.fas.fa-arrow-circle-right
-                  | Flujos de ingresos: suscripción mensual y cursos individuales.
+                  | #[strong Flujos de ingresos:] suscripción mensual y cursos individuales.
                 li.mb-0
                   i.fas.fa-arrow-circle-right
-                  | Recursos clave: ´Plataforma LMS, equipo de instructores.
+                  | #[strong Recursos clave:] Plataforma LMS, equipo de instructores.
                 li.mb-0
                   i.fas.fa-arrow-circle-right
-                  | Actividades clave: desarrollo de contenido, estrategias de marketing.
+                  | #[strong Actividades clave:] desarrollo de contenido, estrategias de marketing.
                 li.mb-0
                   i.fas.fa-arrow-circle-right
-                  | Socios clave: empresas de certificación, universidades.
+                  | #[strong Socios clave:] empresas de certificación, universidades.
                 li.mb-0
                   i.fas.fa-arrow-circle-right
-                  | Estructura de costos: desarrollo tecnológico, publicidad, soporte.
+                  | #[strong Estructura de costos:] desarrollo tecnológico, publicidad, soporte.
               
 
               
@@ -191,29 +208,29 @@
                 figure
                   img(src="@/assets/curso/tema2/slide-1.png")
               .col-lg-7.order-lg-1
-                h5 Título del slide 1
-                p Contenido del slide 1
+                h5 Canva
+                p Plataforma gratuita con plantillas de BMC editables. Permite personalizar cada bloque con información detallada. www.canva.com
             .row.align-items-center.p-4.p-md-5
               .col-lg-5.order-lg-2
                 figure
                   img(src="@/assets/curso/tema2/slide-2.png")
               .col-lg-7.order-lg-1
-                h5 Título del slide 2
-                p Contenido del slide 2
+                h5 Strategyzer
+                p Herramienta profesional para la gestión de modelos de negocio. Requiere suscripción, pero ofrece funcionalidades avanzadas. www.strategyzer.com
             .row.align-items-center.p-4.p-md-5
               .col-lg-5.order-lg-2
                 figure
                   img(src="@/assets/curso/tema2/slide-3.png")
               .col-lg-7.order-lg-1
-                h5 Título del slide 3
-                p Contenido del slide 3
+                h5 Miro
+                p Plataforma de colaboración en línea que permite crear canvases de manera interactiva. www.miro.com
             .row.align-items-center.p-4.p-md-5
               .col-lg-5.order-lg-2
                 figure
                   img(src="@/assets/curso/tema2/slide-3.png")
               .col-lg-7.order-lg-1
-                h5 Título del slide 4
-                p Contenido del slide 4
+                h5 Lucidchart
+                p Herramienta visual que permite diseñar modelos de negocio con plantillas prediseñadas. www.lucidchart.com
       
 
       h2 Ejemplo visual del BMC en Canva
@@ -252,7 +269,7 @@
         .col-lg-8
       
           LineaTiempoD.color-primario.large(data-aos="fade-left")
-            div(numero="1" titulo="Título paso 1") 
+            div(numero="1" titulo="Definición de la misión, visión y valores empresariales") 
               p #[strong Objetivo]
               p Definir la identidad de la empresa y su propósito a largo plazo. 
               p #[strong Método]
@@ -268,8 +285,62 @@
               
               p #[strong Ejemplo práctico:] Misión: "Ofrecer soluciones de educación en línea accesibles para estudiantes universitarios en América Latina." Visión: "Ser la plataforma líder de aprendizaje en línea para 2030." Valores: Innovación, compromiso, accesibilidad.
               
-            div(numero="2" titulo="Título paso 2") Contenido paso 2
-            div(numero="3" titulo="Título paso 3") Contenido paso 3
+            div(numero="2" titulo="Establecimiento de objetivos estratégicos smart") #[strong Objetivo:] Convertir los elementos clave del negocio en metas claras y alcanzables.
+              p #[strong Método:]
+              ul.lista-ul--color.color-dark.mb-4
+                li.mb-0
+                  i.fas.fa-arrow-circle-right
+                  | Identificación de objetivos basados en los canales de distribución y relaciones con clientes del BMC. 
+
+                li.mb-0
+                  i.fas.fa-arrow-circle-right
+                  | Aplicación de la metodología SMART.
+                p #[strong Ejemplo práctico:] Ejemplo SMART: "Aumentar en un 30 % la cantidad de usuarios registrados en la plataforma en los próximos 12 meses a través de campañas digitales."
+            div(numero="3" titulo="Desarrollo de estrategias y tácticas empresariales") 
+              p #[strong Objetivo]
+              p Definir cómo se alcanzarán los objetivos estratégicos. 
+              p #[strong Método]
+              ul.lista-ul--color.color-dark.mb-4
+                li.mb-0
+                  i.fas.fa-arrow-circle-right
+                  | Creación de estrategias basadas en los canales de comercialización.
+
+                li.mb-0
+                  i.fas.fa-arrow-circle-right
+                  | Definición de tácticas específicas alineadas con actividades clave.
+
+              
+              p #[strong Ejemplo práctico:] Estrategia: Expandir la presencia en redes sociales. Táctica: Implementar campañas en Instagram y TikTok dirigidas a estudiantes universitarios.
+            div(numero="4" titulo="Evaluación de riesgos y planificación de contingencias") 
+              p #[strong Objetivo]
+              p Identificar y mitigar riesgos que puedan afectar la ejecución del plan. 
+              p #[strong Método]
+              ul.lista-ul--color.color-dark.mb-4
+                li.mb-0
+                  i.fas.fa-arrow-circle-right
+                  | Análisis de los socios clave y recursos del BMC.
+
+                li.mb-0
+                  i.fas.fa-arrow-circle-right
+                  | Evaluación de riesgos financieros, operativos y de mercado.
+
+              
+              p #[strong Ejemplo práctico:] Riesgo: Dependencia de una sola fuente de proveedores. Plan de contingencia: Diversificar proveedores en diferentes regiones.
+            div(numero="5" titulo="Planificación financiera") 
+              p #[strong Objetivo]
+              p Definir la estructura financiera de la empresa para garantizar su sostenibilidad. 
+              p #[strong Método]
+              ul.lista-ul--color.color-dark.mb-4
+                li.mb-0
+                  i.fas.fa-arrow-circle-right
+                  | Proyección de ingresos y egresos basados en los flujos de ingresos y costos del BMC.
+
+                li.mb-0
+                  i.fas.fa-arrow-circle-right
+                  | Análisis del punto de equilibrio.
+
+              
+              p #[strong Ejemplo práctico:] resupuesto anual estimado: $200,000 USD. Punto de equilibrio: Alcanzar 1,500 suscriptores pagos en el primer año.
       
       
       .row.align-items-center.mb-5
@@ -277,24 +348,81 @@
         .col-lg-8
       
           LineaTiempoD.color-primario.large(data-aos="fade-left")
-            div(numero="1" titulo="Título paso 1") 
+            div(numero="6" titulo="Estrategias de marketing y ventas") 
               p #[strong Objetivo]
-              p Definir la identidad de la empresa y su propósito a largo plazo. 
+              p Posicionar el negocio y captar clientes de manera efectiva. 
               p #[strong Método]
               ul.lista-ul--color.color-dark.mb-4
                 li.mb-0
                   i.fas.fa-arrow-circle-right
-                  | Revisión de la propuesta de valor del BMC. - Análisis de segmentos de clientes. 
+                  | Definición de estrategias de marketing basadas en los segmentos de clientes y canales.
 
                 li.mb-0
                   i.fas.fa-arrow-circle-right
-                  | Definición de valores alineados con la cultura organizacional.
+                  | Selección de medios digitales y tradicionales.
 
               
-              p #[strong Ejemplo práctico:] Misión: "Ofrecer soluciones de educación en línea accesibles para estudiantes universitarios en América Latina." Visión: "Ser la plataforma líder de aprendizaje en línea para 2030." Valores: Innovación, compromiso, accesibilidad.
+              p #[strong Ejemplo práctico:] Canal digital: SEO, Google Ads y redes sociales. Canal tradicional: Ferias universitarias.
+            div(numero="7" titulo="Gestión de recursos humanos")
+              p #[strong Objetivo]
+              p Construir un equipo de trabajo eficaz y alineado con la estrategia. 
+              p #[strong Método]
+              ul.lista-ul--color.color-dark.mb-4
+                li.mb-0
+                  i.fas.fa-arrow-circle-right
+                  | Definición de roles clave en función de las actividades clave del BMC.
+
+                li.mb-0
+                  i.fas.fa-arrow-circle-right
+                  | Creación de programas de capacitación y cultura organizacional.
               
-            div(numero="2" titulo="Título paso 2") Contenido paso 2
-            div(numero="3" titulo="Título paso 3") Contenido paso 3
+              p #[strong Ejemplo práctico:] Perfiles clave: Desarrolladores, especialistas en marketing digital.
+            div(numero="8" titulo="Modelos de negocio y plan de operaciones")
+              p #[strong Objetivo]
+              p Definir cómo se operará el negocio en términos prácticos. 
+              p #[strong Método]
+              ul.lista-ul--color.color-dark.mb-4
+                li.mb-0
+                  i.fas.fa-arrow-circle-right
+                  | Diseño de procesos operativos basados en el modelo de negocio del BMC.
+
+                li.mb-0
+                  i.fas.fa-arrow-circle-right
+                  | Establecimiento de indicadores de eficiencia.
+
+              
+              p #[strong Ejemplo práctico:] Modelo: Suscripción mensual con acceso a contenido exclusivo.
+            div(numero="9" titulo="Gestión de proyectos empresariales") 
+              p #[strong Objetivo]
+              p Implementar metodologías para ejecutar el plan estratégico.
+              p #[strong Método]
+              ul.lista-ul--color.color-dark.mb-4
+                li.mb-0
+                  i.fas.fa-arrow-circle-right
+                  |Aplicación de metodologías como SCRUM o PMI. 
+
+                li.mb-0
+                  i.fas.fa-arrow-circle-right
+                  | Definición de cronograma de actividades.
+
+              
+              p #[strong Ejemplo práctico:] Hito: Lanzamiento de la plataforma en 6 meses.
+              
+            div(numero="10" titulo="Sostenibilidad y responsabilidad social empresarial") 
+              p #[strong Objetivo]
+              p Implementar prácticas de impacto positivo en la sociedad y el medio ambiente. 
+              p #[strong Método]
+              ul.lista-ul--color.color-dark.mb-4
+                li.mb-0
+                  i.fas.fa-arrow-circle-right
+                  | Incorporación de prácticas sostenibles alineadas con la propuesta de valor. 
+
+                li.mb-0
+                  i.fas.fa-arrow-circle-right
+                  | Medición del impacto social y ambiental.
+
+              
+              p #[strong Ejemplo práctico:] Acción: Uso de servidores ecológicos para reducir huella de carbono.
 
         .col-lg-4
           figure
@@ -309,27 +437,66 @@
         .col-lg-8
       
           LineaTiempoD.color-primario.large(data-aos="fade-left")
-            div(numero="1" titulo="Título paso 1") 
-              p #[strong Objetivo]
-              p Definir la identidad de la empresa y su propósito a largo plazo. 
+            div(numero="11" titulo="Gestión de la innovación y transformación digital") 
+              p #[strong Objetivo] 
+              p Aprovechar la tecnología para potenciar el crecimiento del negocio. 
               p #[strong Método]
               ul.lista-ul--color.color-dark.mb-4
                 li.mb-0
                   i.fas.fa-arrow-circle-right
-                  | Revisión de la propuesta de valor del BMC. - Análisis de segmentos de clientes. 
+                  | Identificación de oportunidades de innovación basadas en tecnologías emergentes. 
 
                 li.mb-0
                   i.fas.fa-arrow-circle-right
-                  | Definición de valores alineados con la cultura organizacional.
+                  | Fomento de la cultura de innovación dentro de la empresa.
 
               
-              p #[strong Ejemplo práctico:] Misión: "Ofrecer soluciones de educación en línea accesibles para estudiantes universitarios en América Latina." Visión: "Ser la plataforma líder de aprendizaje en línea para 2030." Valores: Innovación, compromiso, accesibilidad.
-              
-            div(numero="2" titulo="Título paso 2") Contenido paso 2
-            div(numero="3" titulo="Título paso 3") Contenido paso 3
-      
+              p #[strong Ejemplo práctico:] Innovación: Uso de IA para personalizar experiencias de aprendizaje.
+            div(numero="12" titulo="Elaboración del plan de negocios") 
+              p #[strong Objetivo] 
+              p  Documentar toda la información en un formato presentable. 
+              p #[strong Método]
+              ul.lista-ul--color.color-dark.mb-4
+                li.mb-0
+                  i.fas.fa-arrow-circle-right
+                  | Redacción de la propuesta de valor y modelo de negocio. 
 
-      h2 Implementación del Plan Estratégico Integral
+                li.mb-0
+                  i.fas.fa-arrow-circle-right
+                  | Presentación de una estructura organizativa clara.
+
+              
+              p #[strong Ejemplo práctico:] Presentación a inversionistas: Elevator pitch de 3 minutos.
+            div(numero="13" titulo="Evaluación de impacto y escalabilidad") 
+              p #[strong Objetivo] 
+              p Medir el éxito y planificar la expansión del negocio. 
+              p #[strong Método]
+              ul.lista-ul--color.color-dark.mb-4
+                li.mb-0
+                  i.fas.fa-arrow-circle-right
+                  | Evaluación del desempeño financiero. 
+
+                li.mb-0
+                  i.fas.fa-arrow-circle-right
+                  | Establecimiento de estrategias de expansión.
+
+              
+              p #[strong Ejemplo práctico:] Estrategia: Expansión a otros países de América Latina.
+            div(numero="14" titulo="Pitch y presentación de proyectos empresariales") 
+              p #[strong Objetivo] 
+              p Comunicar de manera efectiva la propuesta de negocio. 
+              p #[strong Método]
+              ul.lista-ul--color.color-dark.mb-4
+                li.mb-0
+                  i.fas.fa-arrow-circle-right
+                  | Elaboración de una presentación visual atractiva. 
+
+                li.mb-0
+                  i.fas.fa-arrow-circle-right
+                  | Práctica de la presentación ante stakeholders.
+
+              
+              p #[strong Ejemplo práctico:] Formato: Pitch de 5 minutos para aceleradoras de negocios.  
 
       p La implementación del Plan Estratégico Integral requiere seguimiento continuo y adaptación a las condiciones del mercado. Para ello, es recomendable:
 
@@ -358,7 +525,7 @@
           .row.justify-content-center.align-items-center
             .col-lg-8
               h2.mb-4(data-aos="flip-up") De la empresa tradicional a la moderna
-              p.mb-4(data-aos="fade-right") Los invitamos a leer De la empresa tradicional a la moderna, un recorrido por la transformación empresarial impulsada por la digitalización, la globalización y la innovación.
+              p.mb-4(data-aos="fade-right") Los invitamos a leer #[strong De la empresa tradicional a la moderna] un recorrido por la transformación empresarial impulsada por la digitalización, la globalización y la innovación.
               p.mb-4(data-aos="fade-right") Descubran cómo las organizaciones han evolucionado desde estructuras rígidas y modelos centrados en la producción hacia enfoques más flexibles, sostenibles y orientados al cliente.
 
       
@@ -387,15 +554,15 @@
   
               p.d-flex.my-4
                 img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-                a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274611" target="_blank" rel="noopener noreferrer") De Castro Emilio Cerdá, F. J. A. L. M. (s/f). Las energías renovables en el ámbito internacional. Revistasice.com. 
+                a(href="http://scielo.sld.cu/pdf/rus/v12n4/2218-3620-rus-12-04-120.pdf" target="_blank" rel="noopener noreferrer") Baque Villanueva, L. K., Viteri Intriago, D. A., Álvarez Gómez, L. K., & Izquierdo Morán, A. M. (2020). Plan de negocio para emprendimientos de los actores y organizaciones de economía popular y solidaria. Revista Universidad y Sociedad, 12(4), 120-125.
   
               p.d-flex.my-4
-                img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-                span De Janeiro, R. (1992). La declaración del Río sobre el Medio Ambiente y el Desarrollo. Río de Janeiro República Federativa del Brasil., aprobada en Estocolmo el, 16.
+                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a(href="https://www.harvard-deusto.com/marcas-de-fabricante-hoja-de-ruta-para-competir-con-las-marcas-blancas" target="_blank" rel="noopener noreferrer") Josep-Francesc Valls y Ramon Montanera.(2025). Business Review (Núm. 352) · Estrategia.  
   
               p.d-flex.my-4
                 img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-                a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") Innovación y sostenibilidad.
+                a(href="https://www.youtube.com/watch?v=MoTdMBTK3pM&ab_channel=ElBlogDeRaffo" target="_blank" rel="noopener noreferrer") Rafael Trucíos MazaG. (2021). ¿Qué es el Balanced Score Card? - PLANIFICACIÓN ESTRATÉGICA. 
   
             .col-12.col-md-6.col-lg-3.offset-lg-1
               figure

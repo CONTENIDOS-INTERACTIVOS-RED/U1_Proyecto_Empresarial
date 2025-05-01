@@ -32,36 +32,36 @@
               figure
                 img(src="@/assets/curso/tema1/slider-1.png")
             .col-lg-7.order-lg-1
-              h5 Título del slide 1
-              p Contenido del slide 1
+              h5 Recopilación de datos con IA
+              p Herramientas: Google Trends, SEMrush y plataformas de análisis de redes sociales. Acciones: Identificación de tendencias emergentes, scraping automatizado para recopilar datos de la industria y competencia.
           .row.align-items-center.p-4.p-md-5
             .col-lg-5.order-lg-2
               figure
                 img(src="@/assets/curso/tema1/slider-2.png")
             .col-lg-7.order-lg-1
-              h5 Título del slide 2
-              p Contenido del slide 2
+              h5 Análisis de competencia
+              p Herramientas: SimilarWeb, Sprout Social y BuzzSumo. Acciones: Evaluación de la presencia digital de competidores y uso de machine learning para analizar patrones y predecir estrategias futuras.
           .row.align-items-center.p-4.p-md-5
             .col-lg-5.order-lg-2
               figure
                 img(src="@/assets/curso/tema1/slider-3.png")
             .col-lg-7.order-lg-1
-              h5 Título del slide 3
-              p Contenido del slide 3
+              h5 Identificación de tendencias del mercado
+              p Herramientas: Tableau, Power BI, modelos predictivos de IA. Acciones: Visualización de grandes volúmenes de datos de mercado y anticipación de cambios en la demanda.
           .row.align-items-center.p-4.p-md-5
             .col-lg-5.order-lg-2
               figure
                 img(src="@/assets/curso/tema1/slider-4.png")
             .col-lg-7.order-lg-1
-              h5 Título del slide 4
-              p Contenido del slide 4
+              h5 Conocimiento de las necesidades del consumidor
+              p Herramientas: Brandwatch, Talkwalker, chatbots de IA. Acciones: Análisis del sentimiento del consumidor y recopilación de información en tiempo real sobre preferencias.
           .row.align-items-center.p-4.p-md-5
             .col-lg-5.order-lg-2
               figure
                 img(src="@/assets/curso/tema1/slider-5.png")
             .col-lg-7.order-lg-1
-              h5 Título del slide 5
-              p Contenido del slide 5
+              h5 Segmentación avanzada del mercado
+              p Herramientas: Algoritmos de clustering, modelos de personalización de IA. Acciones: Segmentación basada en datos demográficos, geográficos y psicográficos.
 
 
     #t_1_2.titulo-segundo(data-aos="flip-up")
@@ -126,21 +126,21 @@
                 figure
                   img(src='@/assets/curso/tema1/info1.png', alt='', style="max-width: 840px;").mx-auto
     
-              .bg-color-white.box-shadow.p-3(x="20%" y="57.5%" numero="+")
-                h5 Título punto 1
-                p Contenido punto 1
+              .bg-color-white.box-shadow.p-3(x="30%" y="94%" numero="+")
+                h5 Fortalezas
+                p Aspectos internos positivos que proporcionan una ventaja competitiva.
     
-              .bg-color-white.box-shadow.p-3(x="29%" y="34%" numero="+")
-                h5 Título punto 2
-                p Contenido punto 2
+              .bg-color-white.box-shadow.p-3(x="30%" y="6%" numero="+")
+                h5 Debilidades
+                p Áreas internas que necesitan mejoras.
     
-              .bg-color-white.box-shadow.p-3(x="59%" y="6%" numero="+")
-                h5 Título punto 3
-                p Contenido punto 3
+              .bg-color-white.box-shadow.p-3(x="71%" y="6%" numero="+")
+                h5 Amenazas
+                p Factores externos que pueden afectar negativamente el proyecto.
     
-              .bg-color-white.box-shadow.p-3(x="69%" y="35%" numero="+")
-                h5 Título punto 4
-                p Contenido punto 4
+              .bg-color-white.box-shadow.p-3(x="71%" y="94%" numero="+")
+                h5 Oportunidades
+                p Factores externos que la empresa puede aprovechar.
     
     #t_1_3.titulo-segundo(data-aos="flip-up")
       h2 #[span 1.3] Identificación de oportunidades de negocio
@@ -173,15 +173,35 @@
               figure
                 img(src="@/assets/curso/tema1/slide-2.png")
             .col-lg-7.order-lg-1
-              h5 Título del slide 2
-              p Contenido del slide 2
+              h5 Evaluar la competencia y detectar nichos desatendidos
+              ul.lista-ul--color.color-dark.mb-4
+                li.mb-0
+                  i.fas.fa-arrow-circle-right
+                  | #[strong Objetivo]. Conocer estrategias de competidores para desarrollar una ventaja competitiva.
+                li.mb-0
+                  i.fas.fa-arrow-circle-right
+                  | #[strong Herramientas]. SEMrush, SimilarWeb, Sprout Social. 
+                li.mb-0
+                  i.fas.fa-arrow-circle-right
+                  | #[strong Acciones]. Análisis de presencia digital, estrategias de marketing y opiniones de clientes sobre la competencia.
           .row.align-items-center.p-4.p-md-5
             .col-lg-5.order-lg-2
               figure
                 img(src="@/assets/curso/tema1/slide-3.png")
             .col-lg-7.order-lg-1
-              h5 Título del slide 3
-              p Contenido del slide 3
+              h5 Analizar tendencias emergentes en el sector
+              ul.lista-ul--color.color-dark.mb-4
+                li.mb-0
+                  i.fas.fa-arrow-circle-right
+                  | #[strong Objetivo]. Anticiparse a los cambios del mercado y adaptar la propuesta de valor. 
+                li.mb-0
+                  i.fas.fa-arrow-circle-right
+                  | #[strong Herramientas].  Tableau, Power BI, algoritmos predictivos. 
+                li.mb-0
+                  i.fas.fa-arrow-circle-right
+                  | #[strong Acciones].  Procesamiento de datos de múltiples fuentes y previsión de comportamientos del consumidor.
+
+
     
 
 
@@ -190,7 +210,7 @@
         img(src="@/assets/curso/tema1/3.svg").mx-auto
       .col-lg
         h3 Caso de éxito: Netflix y la IA en la identificación de oportunidades
-        p.mb-0 Estas pruebas pueden ser adquiridas a proveedores o desarrolladas internamente. Es fundamental que aporten valor al proceso y sean acordes con los requerimientos del perfil.
+        p.mb-0 Netflix ha utilizado inteligencia artificial para analizar el comportamiento de sus usuarios, detectar nichos poco explorados y anticiparse a tendencias de contenido.
 
 
     .bg-full-width.bg-fondo-2
@@ -235,15 +255,12 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274611" target="_blank" rel="noopener noreferrer") De Castro Emilio Cerdá, F. J. A. L. M. (s/f). Las energías renovables en el ámbito internacional. Revistasice.com. 
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/130238" target="_blank" rel="noopener noreferrer") Quaranta, N. (2020). Planes de negocio: ( ed.). Editorial Universidad Adventista del Plata. 
 
-            p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span De Janeiro, R. (1992). La declaración del Río sobre el Medio Ambiente y el Desarrollo. Río de Janeiro República Federativa del Brasil., aprobada en Estocolmo el, 16.
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") Innovación y sostenibilidad.
+              a(href="https://www.youtube.com/watch?v=0d6XHz7U2T4" target="_blank" rel="noopener noreferrer") JAIBER PEREZ. (2025). LA TEORÍA DEL CAOS- CÓMO VER LAS OPORTUNIDADES EN LA TORMENTA?.
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure

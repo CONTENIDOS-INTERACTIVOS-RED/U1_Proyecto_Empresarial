@@ -24,7 +24,7 @@
             img(src="@/assets/curso/intro/2.svg", style="max-width: 295px").mx-auto
           .col-lg
             .pt-4
-              p.mb-0.text-white Finalmente, se presentará el Business Model Canvas (BMC) como herramienta clave para diseñar modelos de negocio eficientes. A partir de su aplicación, se elaborará un Plan Estratégico Integral, que incluirá objetivos SMART, planificación financiera y estrategias de innovación. A través del estudio de casos como Tesla, Unilever y Netflix, se analizará la aplicación práctica de estas estrategias para garantizar la sostenibilidad y competitividad en el mercado.
+              p.mb-0.text-white Finalmente, se presentará el #[strong Business Model Canvas (BMC)] como herramienta clave para diseñar modelos de negocio eficientes. A partir de su aplicación, se elaborará un #[strong Plan Estratégico Integral,] que incluirá objetivos SMART, planificación financiera y estrategias de innovación. A través del estudio de casos como Tesla, Unilever y Netflix, se analizará la aplicación práctica de estas estrategias para garantizar la sostenibilidad y competitividad en el mercado.
     
 
 </template>

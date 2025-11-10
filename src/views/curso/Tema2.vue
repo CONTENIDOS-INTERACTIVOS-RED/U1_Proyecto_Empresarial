@@ -124,7 +124,7 @@
       
           LineaTiempoD.color-primario.large(data-aos="fade-right")
             div(numero="6" titulo="Recursos clave")
-              p Elementos esenciales para la operación, como infraestructura y talento humano.  
+              p Elementos esenciales para la operación, como infraestructura y talento humano.
               ul.lista-ul--color.color-dark.mb-4
                 li.mb-0
                   i.fas.fa-arrow-circle-right
@@ -132,11 +132,11 @@
 
               
             div(numero="7" titulo="Actividades clave")
-              p Acciones específicas para implementar la propuesta de valor. 
+              p Procesos esenciales para entregar valor al cliente. 
               ul.lista-ul--color.color-dark.mb-4
                 li.mb-0
                   i.fas.fa-arrow-circle-right
-                  | #[strong Ejemplo práctico: ] Plataforma de e-learning, instructores calificados, servidores en la nube.
+                  | #[strong Ejemplo práctico: ] Creación de contenido educativo, soporte técnico y marketing digital.
 
             div(numero="8" titulo="Socios clave")
               p Aliados estratégicos que apoyan el modelo de negocio.
@@ -340,7 +340,7 @@
                   | Análisis del punto de equilibrio.
 
               
-              p #[strong Ejemplo práctico:] resupuesto anual estimado: $200,000 USD. Punto de equilibrio: Alcanzar 1,500 suscriptores pagos en el primer año.
+              p #[strong Ejemplo práctico:] presupuesto anual estimado: $200,000 USD. Punto de equilibrio: Alcanzar 1,500 suscriptores pagos en el primer año.
       
       
       .row.align-items-center.mb-5
@@ -497,6 +497,8 @@
 
               
               p #[strong Ejemplo práctico:] Formato: Pitch de 5 minutos para aceleradoras de negocios.  
+
+      h2 Implementación del Plan Estratégico Integral
 
       p La implementación del Plan Estratégico Integral requiere seguimiento continuo y adaptación a las condiciones del mercado. Para ello, es recomendable:
 

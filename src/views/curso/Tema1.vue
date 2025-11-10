@@ -121,6 +121,8 @@
       .p-4.p-md-5
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-10
+            h2 Análisis del entorno interno (FODA)
+            p.mb-4 El entorno interno se refiere a los recursos y capacidades con los que cuenta una empresa para alcanzar sus objetivos estratégicos.
             ImagenInfografica.color-secundario
               template(v-slot:imagen)
                 figure
